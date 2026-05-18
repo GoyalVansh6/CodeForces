@@ -1,16 +1,13 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 
 void fxn(){
     int n;
     cin >> n;
 
-    string s;
-    cin >> s;
-
-    vector<int> v(10, 0);
-    for(char c : s){
-        v[c - '0']++;
+    vector<int> v(n);
+    for(int i = 0; i < n; i++){
+        cin >> v[i];
     }
 
     

@@ -55,9 +55,3 @@ int main(){
         fxn();
     }
 }
-
-/*
-
-if i choose 
-
-*/

@@ -35,7 +35,7 @@ void solve() {
                     cout << "NO\n";
                     return;
                 }
-                if (seen_b[b[i]]) {
+                if(seen_b[b[i]]){
                     cout << "NO\n";
                     return;
                 }
